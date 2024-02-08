@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: hsl(0, 0%, 100%);
+  height: 70%;
+  width: 40%;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 10px;
+}
+
+.box img {
+  height: 30%;
+  width: 96%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.box h2 {
+  font-family: "Young Serif", serif;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.box .head p {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.prep h4 {
+  font-size: 18px;
+  color: hsl(14, 45%, 36%);
+  padding: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+b {
+  color: rgb(60, 57, 57);
+  font-weight: bolder;
+}
+
+.prep ul {
+  padding: 3px;
+  padding-left: 30px;
+  font-family: "Outfit", sans-serif;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.prep li {
+  font-size: 16px;
+  padding-left: 13px;
+  padding-bottom: 10px;
+}
+
+.ingredients {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.ingredients h3 {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+  font-size: 25px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.ingredients ul {
+  padding-left: 36px;
+  padding-bottom: 20px;
+}
+
+.ingredients li {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  padding-left: 13px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 525;
+  padding-bottom: 10px;
+}
+
+.instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions h3 {
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+  font-size: 25px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+.instructions ol {
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+
+.instructions li {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  padding-left: 13px;
+  padding-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+.instructions .heading {
+  font-weight: bold;
+  color: hsl(40, 3%, 20%);
+}
+
+.nutrition h3 {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+  font-size: 25px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.nutrition p {
+  font-size: 16px;
+  padding-left: 15px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+}
+
+.nutrition li {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+
+.nutrition ul li:nth-child(odd) {
+  color: hsl(30, 10%, 34%);
+  padding: 10px;
+}
+.nutrition ul li:nth-child(even) {
+  color: hsl(14, 45%, 36%);
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 375px) {
+  .box {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+}
